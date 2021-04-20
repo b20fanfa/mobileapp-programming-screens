@@ -2,6 +2,7 @@ package com.example.screens;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -18,7 +19,12 @@ public class LoginActivity2 extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d("TAG","Hej hej");
+                Log.d("TAG","Startar aktivitet");
+
+                Intent intent = new Intent(LoginActivity2.this, MainActivity.class);
+                startActivity(intent);
+
+
             }
         });
     }
