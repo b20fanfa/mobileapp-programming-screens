@@ -19,15 +19,17 @@
         <fragment
             android:name="com.example.screens.BlankFragment"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
             android:tag="blank_fragment"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World!"
+            android:text="Kan du gissa vart bilden är tagen någonstans?"
+            android:layout_marginLeft="20dp"
             android:fontFamily="serif-monospace"
-            android:textSize="24sp"
+            android:textSize="20sp"
             android:textColor="@color/colorAccent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -39,8 +41,8 @@
             android:layout_width="300dp"
             android:layout_height="200dp"
             android:contentDescription="Skovde town "
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
             app:srcCompat="@drawable/skovde" />
 
 
